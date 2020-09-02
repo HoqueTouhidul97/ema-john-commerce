@@ -34,6 +34,7 @@ const removeFromDatabaseCart = key => {
     localStorage.setItem(getDataKey(), JSON.stringify(currentCart));
 }
 
+
 const clearLocalShoppingCart = (cart) => {
     localStorage.removeItem(getDataKey());
 }
